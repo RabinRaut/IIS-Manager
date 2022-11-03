@@ -1,0 +1,12 @@
+﻿{
+  "ManageServer": {
+    "ApplicationSite": {
+      "Start": [ "ConnectIPSMiddleware", "Default Web Site", "coop.ft.api" ],
+      "Stop": []
+    },
+    "ApplicationPool": {
+      "Start": [ "ConnectIPSMiddleware", "DefaultAppPool", "coop.ft.api" ],
+      "Stop": []
+    }
+  }
+}
